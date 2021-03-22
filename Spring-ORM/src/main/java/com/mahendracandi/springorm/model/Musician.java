@@ -52,4 +52,14 @@ public class Musician implements Serializable {
     public void setSong(String song) {
         this.song = song;
     }
+
+    @Override
+    public String toString() {
+        return "Musician{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", instrument='" + instrument + '\'' +
+                ", song='" + song + '\'' +
+                '}';
+    }
 }
